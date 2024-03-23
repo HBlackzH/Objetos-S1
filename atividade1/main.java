@@ -12,7 +12,8 @@ public class main {
         System.out.println("Dividir: " + calc.dividir());
         System.out.println("0: " + calc.verificarNumeroPrimo(n:0));
         System.out.println("1: " + calc.verificarNumeroPrimo(n:1));
-        System.out.println("2: " + calc.verificarNumeroPrimo(n:4));
+        System.out.println("2: " + calc.verificarNumeroPrimo(n:2));
+        System.out.println("4: " + calc.verificarNumeroPrimo(n:4));
     }
 
 
