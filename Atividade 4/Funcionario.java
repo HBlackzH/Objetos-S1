@@ -1,28 +1,9 @@
-public class Funcionario {
-    private String nome;
-    private int id;
+public class Funcionario extends Pessoa {
     private double salario;
 
-    public Funcionario(String nome, int id, double salario) {
-        this.nome = nome;
-        this.id = id;
+    public Funcionario(String nome, int idade, double salario) {
+        super(nome, idade);
         this.salario = salario;
-    }
-
-    public String getNome() {
-        return nome;
-    }
-
-    public void setNome(String nome) {
-        this.nome = nome;
-    }
-
-    public int getId() {
-        return id;
-    }
-
-    public void setId(int id) {
-        this.id = id;
     }
 
     public double getSalario() {
